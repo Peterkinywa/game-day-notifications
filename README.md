@@ -10,7 +10,6 @@ This project is an event driven alert system that sends real-time NBA game day s
 - After response, the info is transformed into a human readable format and published to an Amazon SNS Topic.
 - Game notifications are sent to subscribers through Email.
 - Scheduled automation for regular updates & invoking using Amazon EventBridge.
-- 
 
 ## **Prerequisites**
 - Free account with subscription and API Key at [sportsdata.io](https://sportsdata.io/)
@@ -29,7 +28,7 @@ This project is an event driven alert system that sends real-time NBA game day s
 - **Cloud Provider**: AWS
 - **Core AWS Services**: SNS, Lambda, EventBridge
 - **External API**: NBA Game API ([SportsData.io](https://sportsdata.io/))
-- **Programming Language**: Python 3.13
+- **Programming Language**: Python 3.x
 - **IAM Security**:
   - Least privilege policies for Lambda, SNS, and EventBridge.
 
